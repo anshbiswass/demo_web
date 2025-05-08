@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Madhya Pradesh School</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #6a1b9a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    .demo-label {
+      background-color: #d1c4e9;
+      color: #4a148c;
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 0.5rem;
+    }
+    .real-webnote {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #4a148c;
+      margin-bottom: 0.5rem;
+    }
+    nav {
+      background-color: #8e24aa;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    section {
+      padding: 3rem 5%;
+    }
+    section h2 {
+      margin-bottom: 1rem;
+      color: #4a148c;
+      font-size: 2rem;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 250px;
+      height: 170px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+    .contact-info p {
+      margin-bottom: 0.5rem;
+    }
+    .cta-banner {
+      background-color: #f48fb1;
+      padding: 2rem;
+      text-align: center;
+      border-radius: 10px;
+      margin: 2rem 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+    .cta-banner h3 {
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+    .cta-banner button {
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      background-color: #6a1b9a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .cta-banner button:hover {
+      background-color: #4a148c;
+    }
+    footer {
+      background-color: #4a148c;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="demo-label">🌐 Demo Web | Made by Ansh Biswas</div>
+  <div class="real-webnote">This is only 30% of the real website</div>
+
+  <header>
+    <h1>Madhya Pradesh School</h1>
+    <p>Empowering the future through education</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#classes">Classes</a>
+    <a href="#teachers">Teachers</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Madhya Pradesh School is committed to holistic learning and nurturing bright minds across the state. We offer world-class infrastructure, inclusive education, and co-curricular excellence to ensure a well-rounded education for every student.</p>
+  </section>
+
+  <section id="classes">
+    <h2>Our Classes</h2>
+    <ul>
+      <li>Nursery to 12th Grade</li>
+      <li>Science, Commerce, and Arts Streams</li>
+      <li>Modern Smart Classrooms</li>
+      <li>Interactive Learning Environment</li>
+      <li>Computer Labs and Science Labs</li>
+    </ul>
+  </section>
+
+  <section id="teachers">
+    <h2>Meet Our Teachers</h2>
+    <p>Our faculty comprises passionate, experienced, and highly qualified educators dedicated to nurturing academic excellence and moral values in every student.</p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery</h2>
+    <img src="https://www.responsiveclassroom.org/wp-content/uploads/2016/04/DSC_2388-1024x682.jpg" alt="Classroom" />
+    <img src="https://content3.jdmagicbox.com/comp/satna/v1/9999p7672.7672.131221172252.z4v1/catalogue/little-flowers-public-school-satna-ho-satna-schools-jzuoung.jpg" alt="Students" />
+    <img src="https://content.jdmagicbox.com/v2/comp/satna/v2/9999p7672.7672.220612214949.v9v2/catalogue/little-flowers-public-high-school-satna-city-satna-schools-9hzuefd31j-250.jpg" alt="Library" />
+    <img src="https://content.jdmagicbox.com/comp/satna/v1/9999p7672.7672.131221172252.z4v1/catalogue/little-flowers-public-school-satna-ho-satna-schools-2yf7ys3-250.jpg" alt="Science Lab" />
+    <img src="https://www.joonsquare.com/usermanage/image/business/priyamvada-birla-hr-sec-school-satna-6742/priyamvada-birla-hr-sec-school-satna-logo.jpg" alt="Sports" />
+  </section>
+
+  <section class="cta-banner">
+    <h3>Enroll Your Child Today!</h3>
+    <p>Admissions open for the academic year 2025-26. Secure your child's future with the best education in Madhya Pradesh.</p>
+    <button>Apply Now</button>
+  </section>
+
+  <section id="contact" class="contact-info">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> info@mpschool.edu.in</p>
+    <p><strong>Phone:</strong> +91 12345 67890</p>
+    <p><strong>Address:</strong> Bhopal, Madhya Pradesh</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Madhya Pradesh School | Developed by @ansh_biswass</p>
+  </footer>
+</body>
+</html>
